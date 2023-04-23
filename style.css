@@ -20,14 +20,12 @@
 }
 
 body {
-  background-color: var(--body-color);
-  font-family: "Outfit", sans-serif;
-}
-
-main {
+  min-height: 100vh;
   display: flex;
+  align-items: center;
   justify-content: center;
-  margin-top: 200px;
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(212, 45%, 89%);
 }
 
 .box {
@@ -62,16 +60,19 @@ main {
   align-items: center;
   justify-content: center;
   justify-content: space-between;
+  margin: 5px;
+  text-align: center;
+  font-size: 15px;
 }
 
-.box .info p:first-child {
+.box .info h1 {
   text-align: center;
   font-size: 15px;
   font-weight: 700;
   color: var(--paragraph-color);
   margin-bottom: 10px;
 }
-.box .info p:last-child {
+.box .info p {
   text-align: center;
   font-size: 15px;
   font-weight: 400;
