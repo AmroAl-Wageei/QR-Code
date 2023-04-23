@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+:root {
+  --box-color: hsl(0, 0%, 100%);
+  --text-color: hsl(212, 45%, 89%);
+  --body-color: hsl(215, 19%, 77%);
+  --paragraph-color: hsl(218, 44%, 22%);
+  --paragraph2-color: hsl(220, 15%, 55%);
+
+  --padding: 10px;
+  --margin: 10px;
+}
+
+body {
+  background-color: var(--body-color);
+  font-family: "Outfit", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.box {
+  background-color: var(--box-color);
+  width: 250px;
+  height: 390px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.box .image img {
+  width: calc(250px - 20px);
+  /*margin-top: 2px;
+  */
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.box .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.box .info p:first-child {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--paragraph-color);
+  margin-bottom: 10px;
+}
+.box .info p:last-child {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--paragraph2-color);
+}
