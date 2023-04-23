@@ -42,6 +42,7 @@ body {
   align-items: center;
   justify-content: center;
   justify-content: space-around;
+  padding: 10px;
 }
 
 .box .image img {
@@ -67,14 +68,14 @@ body {
 
 .box .info h1 {
   text-align: center;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 700;
   color: var(--paragraph-color);
   margin-bottom: 10px;
 }
 .box .info p {
   text-align: center;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 400;
   color: var(--paragraph2-color);
 }
